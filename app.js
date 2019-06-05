@@ -22,3 +22,10 @@ addForm.addEventListener('submit', e => {
     }
 
 });
+
+//delete todo li
+list.addEventListener('click', e => {
+    if (e.target.classList.contains('delete')) {
+        e.target.parentElement.remove();
+    }
+});
