@@ -1,45 +1,45 @@
+/*https://colorhunt.co/palette/180419*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    background: #16817a;
-    color: white;
-    font-family: 'Krona One', sans-serif;
-    min-height: 100vh;
-
+	background: #16817a;
+	color: white;
+	font-family: 'Krona One', sans-serif;
+	min-height: 100vh;
 }
 
 header {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 header,
 form {
-    min-height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	min-height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 form input,
 form button {
-    padding: 0.5rem;
-    font-size: 2rem;
-    border: none;
-    background: white;
+	padding: 0.5rem;
+	font-size: 2rem;
+	border: none;
+	background: white;
 }
 
 form button {
-    color: #fa744f;
-    background: white;
-    cursor: pointer;
-    transition: all 0.3s ease;
+	color: #fa744f;
+	background: white;
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
 
 form button:hover {
-    background: #fa744f;
-    color: white;
+	background: #fa744f;
+	color: white;
 }
