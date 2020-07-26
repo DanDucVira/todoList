@@ -19,10 +19,10 @@ function addTodo(event) {
     const todoDiv = document.createElement("div");
     todoDiv.classList.add("todo");
 
-    //create li
+    //create -> li
     const newTodo = document.createElement("li");
-    newTodo.innerText = "test";
-    newTodo.classList.add("todo-Item");
+    newTodo.innerText = todoInput.value;
+    newTodo.classList.add("todo-item");
     todoDiv.appendChild(newTodo);
 
     // button -> checked
@@ -40,6 +40,9 @@ function addTodo(event) {
 
     //append to list
     todoList.appendChild(todoDiv);
+
+    //clear todoinput value
+    todoInput.value = "";
 
 
 
